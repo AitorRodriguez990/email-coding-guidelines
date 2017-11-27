@@ -22,7 +22,7 @@ Así pues, aquí trataré de dar algunos consejos y recopilar problemas, y sus r
 <a name="reglasbasicas"></a>
 ## 2. Reglas básicas
 
-### 2.1. Utiliza los estilos en línea
+### 2.1. Utiliza estilos en línea
 
 Algunos clientes de correo no leen corectamente los estilos si estos se aplican en el `head`, por lo que siempre es mejor poner los estilos en línea.
 
@@ -48,7 +48,7 @@ Algunos clientes de correo no leen corectamente los estilos si estos se aplican 
 ```
 
 
-### 2.2. Utiliza tablas (table) en vez de bloques (div)
+### 2.2. Utiliza tablas y no bloques
 
 A la hora de estructurar el contenido de un e-mail en columnas es importante **no utilizar `div` bajo ninguna circustancia, siempre utilizar `table`** en su lugar. 
 De no hacerlo tendremos multitud de problemas con nuestra plantilla, sobretodo a la hora de restructurar el contenido según la resolución del dispositivo.
@@ -74,7 +74,7 @@ De la misma manera, también nos ayudará si todo el contenido de nuestra planti
 ```
 
 
-### 2.3. Un máximo de 600px de ancho
+### 2.3. No excedas los 600px de ancho
 
 Para asegurarnos de que nuestra plantilla se ve correctamente en todos los clientes de correo, nunca deberá superar los 600px de ancho.
 
