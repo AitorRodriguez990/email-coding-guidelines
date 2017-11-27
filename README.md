@@ -7,7 +7,8 @@
 3. [Contribuciones](#contribuciones)
 4. [Copyright](#copyright)
 
-## 1. [Introducción](#introduccion)
+<a name="introduccion"></a>
+## 1. [Introducción]
 
 Lorem ipsum.
 
