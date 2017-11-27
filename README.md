@@ -84,6 +84,11 @@ Para asegurarnos de que nuestra plantilla se ve correctamente en todos los clien
 Todas las imágenes que contenga nuestra plantilla deberán tener la propiedad `style="display:block"`, para eliminar el espacio entre imágenes, y el atributo `alt`, para mostrar texto en aquellos clientes de correo que bloqueen las imágenes. 
 
 
+### 2.5. No utilices JavaScript
+
+Nunca nunca nunca añadas código JavaScript a un correo electrónico, no funcionará y además lo más probable es que sea vaya a la carpeta de *spam*.
+
+
 <a name="enlacesinteres"></a>
 ## 3. Enlaces de interés
 
