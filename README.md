@@ -48,6 +48,31 @@ Algunos clientes de correo no leen corectamente los estilos si estos se aplican 
 ```
 
 
+### 2.2. Utiliza tablas (table) en vez de bloques (div)
+
+A la hora de estructurar el contenido de un e-mail en columnas es importante *no utilizar `div` bajo ninguna circustancia, siempre utilizar `table`* en su lugar. 
+De no hacerlo tendremos multitud de problemas con nuestra plantilla, sobretodo a la hora de restructurar el contenido según la resolución del dispositivo.
+
+Además conviene añadir los valores cellpadding y cellspacing a 0. Esta es una buena forma de empezar una tabla:
+
+```html
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+```
+
+De la misma manera, también nos ayudará si todo el contenido de nuestra plantilla la ponemos dentro de una tabla ocupando todo el alto y ancho disponible, para así poder, por ejemplo, añadir un color de fondo. Aquí el código a usar:
+
+```html
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+```
+
 <a name="enlacesinteres"></a>
 ## 3. Enlaces de interés
 
