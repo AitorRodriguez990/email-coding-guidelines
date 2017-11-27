@@ -73,6 +73,17 @@ De la misma manera, también nos ayudará si todo el contenido de nuestra planti
 </table>
 ```
 
+
+### 2.3. Un máximo de 600px de ancho
+
+Para asegurarnos de que nuestra plantilla se ve correctamente en todos los clientes de correo, nunca deberá superar los 600px de ancho.
+
+
+### 2.4. Vigila con las imágenes
+
+Todas las imágenes que contenga nuestra plantilla deberán tener la propiedad `style="display:block"`, para eliminar el espacio entre imágenes, y el atributo `alt`, para mostrar texto en aquellos clientes de correo que bloqueen las imágenes. 
+
+
 <a name="enlacesinteres"></a>
 ## 3. Enlaces de interés
 
