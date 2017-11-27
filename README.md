@@ -1,16 +1,20 @@
 # Directrices de codificación de e-mails
 
+## Tabla de contenidos
+
 1. [Introducción](#introduccion)
-2- [Enlaces de interés](#enlacesinteres)
+2. [Enlaces de interés](#enlacesinteres)
 3. [Contribuciones](#contribuciones)
 4. [Copyright](#copyright)
 
 ## 1. [Introducción](#introduccion)
+
 Lorem ipsum.
 
 
 <a name="enlacesinteres"></a>
 ## 2. Enlaces de interés
+
 - [Guía de comptabilidades](https://www.campaignmonitor.com/css)
 
 
