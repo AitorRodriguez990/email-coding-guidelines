@@ -27,7 +27,7 @@ Así pues, aquí trataré de dar algunos consejos y recopilar problemas, y sus r
 Algunos clientes de correo no leen corectamente los estilos si estos se aplican en el `head`, por lo que siempre es mejor poner los estilos en línea.
 
 **Mal:**
-```
+```html
 <head>
   .title {
     font-size: 16px;
@@ -40,7 +40,7 @@ Algunos clientes de correo no leen corectamente los estilos si estos se aplican 
 ```
 
 **Bien:**
-```
+```html
 <head></head>
 <body>
   <div style="font-size: 16px; font-weight: bold;"></div>
